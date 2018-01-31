@@ -1,12 +1,23 @@
-#include<stdio.h>
+#include<sstdio.h>
 void main()
 {
-int hours,minutes,total,minutes;
-printf("enter the time in hours and minutes:\n");
-printf("\n hours:\t");
-scanf("%d,&hours:\t");
-printf("\n minutes :\t");
-sacnf("%d,&minutes:\t");
-total minutes=(hours+60)=minutes;
-return 0;
-}
+  int hour,minute,total;
+  printf("hours:");
+  if(scanf("%d",&hour)==1)
+  {
+    printf("minutes:");
+    if(scanf("%d",&minutes)==1)
+    {
+      minute1=hour*60;
+      total=minute 1+minute;
+      printf("total minutes=>%d",total);
+    }
+    else
+    {
+      printf("error enter correct value");
+    }
+  else
+  {
+    printf("error enter correct value");
+  }
+  }
