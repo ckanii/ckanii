@@ -4,9 +4,9 @@ void main()
 {
 int a,b,product;
 printf("enter the numbers");
-sum=a*b;
+product=a*b;
 scanf("%d%d",&a,&b);
-if(num%2==0)
+if(product%2==0)
 {
 printf("it is even number");
 }
